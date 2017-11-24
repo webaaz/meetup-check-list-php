@@ -58,20 +58,11 @@
                 <h5>Des outils ? Oui mais lesquels ? Pour faire quoi ?</h5>
             </section>
             <section>
-
-            </section>
-        </section>
-        <section class="no-center stack future" style="top: 0px; display: block;" data-previous-indexv="0" aria-hidden="true" hidden="">
-            <section style="top: 184.5px; display: block;" class="" aria-hidden="true">
-                <h2>Introduction</h2>
-                <h5>Des outils ? Oui mais lesquels ? Pour faire quoi ?</h5>
-            </section>
-            <section>
                 <h2>Quels outils pour quel projet ?</h2>
                 <ul>
-                    <li>Un site wordpress pour la boucherie Sanzot ?</li>
-                    <li>Un site éditorial ?</li>
-                    <li>Une application de gestion en SAAS ?</li>
+                    <li class="fragment" data-fragment-index="1">Un site wordpress pour la boucherie Sanzot ?</li>
+                    <li class="fragment" data-fragment-index="2">Un site éditorial ?</li>
+                    <li class="fragment" data-fragment-index="3">Une application de gestion en SAAS ?</li>
                 </ul>
             </section>
         </section>
@@ -82,24 +73,46 @@
             <section>
                 <h2>Bien sûr !</h2>
                 <ul>
-                    <li>Un code que je maîtrise</li>
-                    <li>Pas de montée en compétence</li>
-                    <li>Pas une usine à gaz</li>
+                    <li class="fragment" data-fragment-index="1">Un code que je maîtrise</li>
+                    <li class="fragment" data-fragment-index="2">Pas de montée en compétence</li>
+                    <li class="fragment" data-fragment-index="3">Pas une usine à gaz</li>
                 </ul>
             </section>
             <section>
                 <h2>Quels CMS choisir ?</h2>
                 <ul>
-                    <li>Minimaliste ? Wordpress</li>
-                    <li>Maximaliste ? Drupal</li>
-                    <li>Mix CMS / Framweork ? EzPublish</li>
+                    <li class="fragment" data-fragment-index="1">Minimaliste ? Wordpress</li>
+                    <li class="fragment" data-fragment-index="2">Maximaliste ? Drupal</li>
+                    <li class="fragment" data-fragment-index="3">Mix CMS / Framweork ? EzPublish</li>
                 </ul>
             </section>
             <section>
                 <h2>Quels framework choisir ?</h2>
                 <ul>
-                    <li>N'importe lequel !</li>
-                    <li>Maintenable, testé, pérenne, sécurisé...</li>
+                    <li class="fragment" data-fragment-index="1">N'importe lequel !</li>
+                    <li class="fragment" data-fragment-index="2">Maintenable, testé, pérenne, sécurisé…</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Quelle base de données choisir ?</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">SQL (MySQL…)</li>
+                    <li class="fragment" data-fragment-index="2">NoSQL (MongoDB, Redis, Memcached…)</li>
+                    <li class="fragment" data-fragment-index="3">Mix des deux (Postgresql…)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Un moteur de template ?</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Twig</li>
+                    <li class="fragment" data-fragment-index="1">PHP !</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Et comment je gère tout ça ?</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Composer</li>
+                    <li class="fragment" data-fragment-index="2">Packagist</li>
                 </ul>
             </section>
         </section>
@@ -111,31 +124,34 @@
             <section>
                 <h2>LAMP ? WAMP ? XAMPP ?</h2>
                 <ul>
-                    <li>Chacun fait ce qu'il veut du moment que je suis tout seul !</li>
+                    <li class="fragment" data-fragment-index="1">Chacun fait ce qu'il veut du moment qu'il bosse pas avec moi !</li>
+                    <li class="fragment" data-fragment-index="2">php -S</li>
                 </ul>
             </section>
             <section>
                 <h2>Virtualisation</h2>
                 <ul>
-                    <li>Un environnement unifié</li>
-                    <li>Chacun fait ce qu'il veut de sa machine</li>
-                    <li>Mais tout le monde travaille dans les mêmes conditions</li>
+                    <li class="fragment" data-fragment-index="1">Un environnement unifié</li>
+                    <li class="fragment" data-fragment-index="2">Chacun fait ce qu'il veut de sa machine</li>
+                    <li class="fragment" data-fragment-index="3">Mais tout le monde travaille dans les mêmes conditions</li>
+                    <li class="fragment" data-fragment-index="4">Vagrant, Docker…</li>
+                    <li class="fragment" data-fragment-index="5">Solutions tout en un : Homestead</li>
                 </ul>
             </section>
             <section>
                 <h2>L’environnement de développement</h2>
                 <ul>
-                    <li>IDE</li>
-                    <li>Éditeur de texte</li>
-                    <li>Mais avec un paramétrage commun !</li>
+                    <li class="fragment" data-fragment-index="1">IDE</li>
+                    <li class="fragment" data-fragment-index="2">Éditeur de texte</li>
+                    <li class="fragment" data-fragment-index="3">Mais avec un paramétrage commun ! (encodage, hook, linter…)</li>
                 </ul>
             </section>
             <section>
                 <h2>Les outils de versioning</h2>
                 <ul>
-                    <li>CTRL+Z</li>
-                    <li>Git</li>
-                    <li>Subversion...</li>
+                    <li class="fragment" data-fragment-index="1">CTRL+Z</li>
+                    <li class="fragment" data-fragment-index="2">Git</li>
+                    <li class="fragment" data-fragment-index="3">Subversion…</li>
                 </ul>
             </section>
         </section>
@@ -147,22 +163,30 @@
             <section>
                 <h2>Quels tests pour votre projet ?</h2>
                 <ul>
-                    <li>Unitaires</li>
-                    <li>Fonctionnels (API/interface)</li>
-                    <li>Tests navigateur</li>
+                    <li class="fragment" data-fragment-index="1">Unitaires (PHPUnit / Atoum)</li>
+                    <li class="fragment" data-fragment-index="2">Fonctionnels
+                        <ul>
+                            <li>Fonctionnels (Selenium, CasperJS…)</li>
+                            <li>API (Behat)</li>
+                        </ul>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">Tests navigateur (ModernIE, Chrome, Firefox…)</li>
                 </ul>
             </section>
             <section>
                 <h2>Comment automatiser ?</h2>
                 <ul>
-                    <li>PIC</li>
+                    <li class="fragment" data-fragment-index="1">PIC (Jenkins, Travis, CircleCI, Codeship, GitlabCI</li>
+                    <li class="fragment" data-fragment-index="2">PHPMD</li>
+                    <li class="fragment" data-fragment-index="3">PHPCS</li>
+
                 </ul>
             </section>
             <section>
                 <h2>Comment aller plus loin ?</h2>
                 <ul>
-                    <li>Revue de code</li>
-                    <li>Pair programming</li>
+                    <li class="fragment" data-fragment-index="1">Revue de code</li>
+                    <li class="fragment" data-fragment-index="2">Pair programming</li>
                 </ul>
             </section>
         </section>
@@ -172,10 +196,17 @@
                 <h5>FTP mon amour ♥</h5>
             </section>
             <section>
-                <h2>Des outils pour mon projet ?</h2>
+                <h2>Manuel ou automatique ?</h2>
                 <ul>
-                    <li>Deployer, Capistrano...</li>
-                    <li>Ou je veux, quand je veux !</li>
+                    <li class="fragment" data-fragment-index="1">Filezilla</li>
+                    <li class="fragment" data-fragment-index="2">Deployer, Capistrano…</li>
+                    <li class="fragment" data-fragment-index="3">Ou je veux, quand je veux avec des roolbacks !</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Et ma base de données ?</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Phinx</li>
                 </ul>
             </section>
         </section>
@@ -187,15 +218,15 @@
             <section>
                 <h2>Des pirates sur mon wordpress ?</h2>
                 <ul>
-                    <li>Mises à jour et veille techno</li>
+                    <li class="fragment" data-fragment-index="1">Mises à jour et veille techno</li>
                 </ul>
             </section>
             <section>
                 <h2>Un audit de sécurité ?</h2>
                 <ul>
-                    <li>La sécurité c'est un métier, et ce n'est probablement pas le votre !</li>
-                    <li>Bonnes pratiques</li>
-                    <li>Top 10 OWASP</li>
+                    <li class="fragment" data-fragment-index="1">La sécurité c'est un métier, et ce n'est probablement pas le votre !</li>
+                    <li class="fragment" data-fragment-index="2">Bonnes pratiques</li>
+                    <li class="fragment" data-fragment-index="3">Top 10 OWASP</li>
                 </ul>
             </section>
         </section>
@@ -205,17 +236,9 @@
                 <h5>Tout le monde à la fibre maintenant !</h5>
             </section>
             <section>
-                <h2>Minification</h2>
+                <h2>Concaténatrion et minification</h2>
                 <ul>
-                    <li>Gestion de cache (applicatif, front...)</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Analyse de code</h2>
-                <ul>
-                    <li>La sécurité c'est un métier, et ce n'est probablement pas le votre !</li>
-                    <li>Bonnes pratiques</li>
-                    <li>Top 10 OWASP</li>
+                    <li class="fragment" data-fragment-index="1">Gestion de cache (applicatif, front…)</li>
                 </ul>
             </section>
         </section>
@@ -225,39 +248,51 @@
                 <h5>Une pub télé ? Facile on a pris un gros serveur !</h5>
             </section>
             <section>
+                <h2>Debug</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">XDebug</li>
+                </ul>
+            </section>
+            <section>
                 <h2>Analyse statique de code</h2>
                 <ul>
-                    <li>Exakat</li>
+                    <li class="fragment" data-fragment-index="1">Exakat</li>
                 </ul>
             </section>
             <section>
                 <h2>Analyse de code</h2>
                 <ul>
-                    <li>Xhprof, Blackfire...</li>
+                    <li class="fragment" data-fragment-index="1">Xhprof, Blackfire…</li>
                 </ul>
             </section>
             <section>
                 <h2>Tests de charge</h2>
                 <ul>
-                    <li>Jmeter...</li>
+                    <li class="fragment" data-fragment-index="1">Jmeter, Siege…</li>
                 </ul>
             </section>
         </section>
         <section class="no-center stack future" style="top: 0px; display: block;" data-previous-indexv="0" aria-hidden="true" hidden="">
             <section style="top: 184.5px; display: block;" class="" aria-hidden="true">
-                <h2>Documentation</h2>
+                <h2>Documentation et normes</h2>
                 <h5></h5>
             </section>
             <section>
                 <h2>Wiki</h2>
                 <ul>
-                    <li>Wikimedia, redmine...</li>
+                    <li class="fragment" data-fragment-index="1">Wikimedia, redmine…</li>
+                </ul>
+            </section>
+            <section>
+                <h2>PSR</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">UTILISEZ-LES !</li>
                 </ul>
             </section>
             <section>
                 <h2>PHPDoc</h2>
                 <ul>
-                    <li>Utile ?</li>
+                    <li class="fragment" data-fragment-index="1">Utile ?</li>
                 </ul>
             </section>
         </section>
@@ -269,8 +304,23 @@
             <section>
                 <h2>Internationalisation</h2>
                 <ul>
-                    <li>Poedit</li>
-                    <li>WebTranslateIt</li>
+                    <li class="fragment" data-fragment-index="1">Poedit</li>
+                    <li class="fragment" data-fragment-index="2">WebTranslateIt</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Scripting</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Phing</li>
+                    <li class="fragment" data-fragment-index="2">zf-cli, symfony/console</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Ma base de donnée ?</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">PHPMyAdmin…</li>
+                    <li class="fragment" data-fragment-index="2">MySQL Workbench, PGAdmin…</li>
+                    <li class="fragment" data-fragment-index="3">Redsmin…</li>
                 </ul>
             </section>
         </section>
@@ -282,30 +332,41 @@
             <section>
                 <h2>Gestion de tickets</h2>
                 <ul>
-                    <li>Jira ?</li>
-                    <li>Redmine</li>
+                    <li class="fragment" data-fragment-index="1">Jira ?</li>
+                    <li class="fragment" data-fragment-index="2">Redmine</li>
                 </ul>
             </section>
             <section>
                 <h2>Gestion du temps</h2>
                 <ul>
-                    <li>Xhprof, Blackfire...</li>
+                    <li class="fragment" data-fragment-index="1">Redmine, Everhour…</li>
                 </ul>
             </section>
             <section>
                 <h2>Methodologie</h2>
                 <ul>
-                    <li>Agile ?</li>
-                    <li>A l'arrache ?</li>
-                    <li>Mix des deux ?</li>
+                    <li class="fragment" data-fragment-index="1">Agile ?</li>
+                    <li class="fragment" data-fragment-index="2">A l'arrache ?</li>
+                    <li class="fragment" data-fragment-index="3">Mix des deux ?</li>
                 </ul>
             </section>
             <section>
                 <h2>Coûts</h2>
                 <ul>
-                    <li>Agile ?</li>
-                    <li>A l'arrache ?</li>
-                    <li>Mix des deux ?</li>
+                    <li class="fragment" data-fragment-index="1">Saas</li>
+                    <li class="fragment" data-fragment-index="2">ou sans Saas ?</li>
+                </ul>
+            </section>
+        </section>
+        <section class="no-center stack future" style="top: 0px; display: block;" data-previous-indexv="0" aria-hidden="true" hidden="">
+            <section style="top: 184.5px; display: block;" class="" aria-hidden="true">
+                <h2>Et si on allait plus loin ?</h2>
+                <h5></h5>
+            </section>
+            <section>
+                <h2>D'autres idées ?</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">…</li>
                 </ul>
             </section>
         </section>
